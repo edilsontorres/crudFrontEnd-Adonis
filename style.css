@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.topo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #CFDBD5;
+}
+
+.profilePicture-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profilePicture {
+    background-color: #CFDBD5;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+   
+}
+
+.img-profile img {
+    width: 150px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.form-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-bottom: 1px solid #333533;
+    padding-bottom: 20px;
+    
+}
+
+.register {
+    color: #333533;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.register span a {
+   text-decoration: none;
+   font-size: 22px;
+   color: #F5CB5C;
+   font-weight: 600;
+}
+
+form {
+    line-height: 30px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #333533;
+    font-size: 20px;
+    
+}
+
+.title-area {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title, .title-area {
+    font-weight: 600;
+    color: #333533;
+}
+
+.button {
+    width: 100%;
+    cursor: pointer;
+    color: #333533;
+    background-color: #F5CB5C;
+    font-weight: 600;
+    border: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #CFDBD5;
+}
