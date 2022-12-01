@@ -23,21 +23,16 @@ singIn.addEventListener('submit', async login=>{
 
 async function getToken(){
   const response = await result.json()
-  localStorage.setItem( 'token', response.token )
-  token = localStorage.getItem( 'token') 
-  pushToken(); 
-}
-
-async function pushToken(){
-  let resultado = await fetch(`${url}companies`, {
-    method: 'GET',
-    headers: {
-      Authorization: `Bearer ${token}` 
-    }
-  }) 
-  if(resultado.status === 200){
-    
+ 
+  sessionStorage.setItem('token', response.token)
+  if(response.token){
+    window.location.href = `listCompany.html`
+  } else {
+    alert('login e/ou senha inválidos')
+    location.reload();
   }
+  
+  
 }
 
 
