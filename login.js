@@ -23,16 +23,14 @@ singIn.addEventListener('submit', async login=>{
 
 async function getToken(){
   const response = await result.json()
- 
   sessionStorage.setItem('token', response.token)
+
   if(response.token){
     window.location.href = `listCompany.html`
   } else {
     alert('login e/ou senha inválidos')
     location.reload();
-  }
-  
-  
+  }  
 }
 
 
