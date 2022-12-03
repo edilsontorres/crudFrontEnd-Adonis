@@ -188,6 +188,20 @@ thead{
     background-color: red;
 }
 
+.button-criar-area{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.criar{
+    display: flex;
+    background-color: #588157;
+    width: 55%;
+    justify-content: flex-end;
+}
+
+
 footer {
     display: flex;
     align-items: center;
