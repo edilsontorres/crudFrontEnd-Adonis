@@ -1,5 +1,6 @@
 let url = `http://127.0.0.1:3333/`;
 let token = sessionStorage.getItem('token');
+let dados = document.getElementById("dados");
 
 
 async function sendingToken(){
@@ -20,17 +21,19 @@ sendingToken();
 
 
 function montarLista(lista){
-    let dados = '';
+    let tabela = '';
 
     for(let i in lista){
-        dados+= `<tr><th>${lista[i].id}</th>
+        tabela+= `<tr><th>${lista[i].id}</th>
                 <th>${lista[i].name}</th>
                 <th>${lista[i].initial_date}</th>
                 <th>${lista[i].final_date}</th>
+                <th>${lista[i].description}</th>
                 </tr>`;
-    }
-    document.getElementById("dados").innerHTML = dados
-    
 
+    }
+
+    dados.innerHTML = tabela
+    
 
 }
