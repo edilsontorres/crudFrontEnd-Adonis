@@ -165,6 +165,29 @@ thead{
     background-color: #F5CB5C; 
 }
 
+.acao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.editar, .deletar {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 80px;
+   
+}
+
+.editar {
+    margin-right: 10px;
+    background-color: #CFDBD5;
+}
+
+.deletar{
+    color: #FFF;
+    background-color: red;
+}
+
 footer {
     display: flex;
     align-items: center;
