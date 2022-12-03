@@ -29,6 +29,12 @@ function montarLista(lista){
                 <th>${lista[i].initial_date}</th>
                 <th>${lista[i].final_date}</th>
                 <th>${lista[i].description}</th>
+                <th>
+                    <div class="acao">
+                        <div class="editar">Editar</div>
+                        <div class="deletar">Deletar</div>
+                    </div>
+                </th>
                 </tr>`;
 
     }
