@@ -124,8 +124,45 @@ input {
     border: none;
 }
 
+.area-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #333533;
+    border-bottom: 1px solid #333533
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabela-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
 th{
-    border: 1px solid black;
+    padding: 20px;
+    color: #333533;
+    border-radius: 4px;
+}
+
+thead{
+    background-color: #F5CB5C; 
 }
 
 footer {
