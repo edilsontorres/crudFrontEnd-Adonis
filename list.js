@@ -40,6 +40,5 @@ function montarLista(lista){
     }
 
     dados.innerHTML = tabela
-    
 
 }
