@@ -124,6 +124,20 @@ input {
     border: none;
 }
 
+.botao-registro-voltar-area{
+    display: flex;
+    flex: 1;
+}
+
+.registrar {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.voltar{
+    width: 30%;
+}
+
 .area-titulo{
     display: flex;
     align-items: center;
@@ -210,7 +224,6 @@ thead{
     border-radius: 5px;
     border: none;
 }
-
 
 footer {
     display: flex;
