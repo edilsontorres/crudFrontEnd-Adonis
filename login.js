@@ -6,6 +6,7 @@ let singIn = document.querySelector('.form1');
 
 let token = '';
 let result = '';
+
 singIn.addEventListener('submit', async login=>{
     login.preventDefault();
     const form = new FormData(singIn)
