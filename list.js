@@ -2,6 +2,8 @@ let url = `http://127.0.0.1:3333/`;
 let token = sessionStorage.getItem('token');
 let dados = document.getElementById("dados");
 
+let criar = document.querySelector('.button-criar');
+
 
 async function sendingToken(){
     let resultado = await fetch(`${url}companies`, {
@@ -40,5 +42,8 @@ function montarLista(lista){
     }
 
     dados.innerHTML = tabela
-
 }
+
+criar.addEventListener('click', newCompany=>{
+    window.location.href = `creatCompany.html`;
+})
